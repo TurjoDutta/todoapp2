@@ -83,7 +83,8 @@ button {
     /* Set text color to white */
 }
 
-button:hover {
+button:hover ,,
+button:active{
     background-color: #060606;
     box-shadow: 0 0 0 5px #3b83f65f;
     font-family: Arial, sans-serif;
