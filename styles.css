@@ -183,12 +183,7 @@ ul li span:hover {
 
 @media only screen and (max-width: 464px) {
      #datetime {
-        margin-left: -15px;
-    }
-    .addbutton {
-        position: absolute;
-        left: 62%;
-        cursor: pointer;
+        margin-left: -10px;
     }
     .dt {
         margin-left: 50px;
