@@ -145,16 +145,3 @@ function clearAllTasks() {
 // Initialize the tasks from localStorage
 showTask();
 
-document.addEventListener('DOMContentLoaded', function() {
-    var buttons = document.querySelectorAll('button');
-    
-    buttons.forEach(function(button) {
-        button.addEventListener('touchstart', function() {
-            button.classList.add('hover-active');
-        });
-        
-        button.addEventListener('touchend', function() {
-            button.classList.remove('hover-active');
-        });
-    });
-});
